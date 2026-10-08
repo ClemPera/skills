@@ -1,6 +1,7 @@
 ---
-
-## name: upgrade-dependencies description: Upgrade all dependencies of a project (runtime, dev and build deps, GitHub Actions, Docker base images, pre-commit hooks, toolchain versions) to the latest stable versions, reading the changes between the declared minimum version and the target and flagging or fixing deprecated code. Plan mode produces a report, build mode asks permission then applies the upgrades. Use this whenever the user asks to upgrade, update, bump, refresh or modernize dependencies, check for outdated or unmaintained packages, or prepare a dependency migration, even if they do not say "skill".
+name: upgrade-dependencies
+description: Upgrade all dependencies of a project (runtime, dev and build deps, GitHub Actions, Docker base images, pre-commit hooks, toolchain versions) to the latest stable versions, reading the changes between the declared minimum version and the target and flagging or fixing deprecated code. Plan mode produces a report, build mode asks permission then applies the upgrades. Use this whenever the user asks to upgrade, update, bump, refresh or modernize dependencies, check for outdated or unmaintained packages, or prepare a dependency migration, even if they do not say "skill".
+---
 
 # Upgrade dependencies
 
